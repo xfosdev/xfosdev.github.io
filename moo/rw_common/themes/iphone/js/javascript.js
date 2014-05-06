@@ -3,11 +3,11 @@ window.addEvent('domready', function(){
 	var mySlide = new Fx.Slide('sidebar');
 	mySlide.hide();
 
-	$('show_sidebar').addEvent('click', function(e){
-		e = new Event(e);
-		mySlide.toggle();
-		e.stop();
-	});
+	//$('show_sidebar').addEvent('click', function(e){
+		//e = new Event(e);
+		//mySlide.toggle();
+		//e.stop();
+	//});
 	
 	externalLinks();
 });
